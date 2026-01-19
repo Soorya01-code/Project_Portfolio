@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Soorya S S – Engineering Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  color: #111827;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  padding: 60px 10vw 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+header h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 18px;
+  color: #4b5563;
+  margin-top: 6px;
+}
+
+/* Navigation */
+nav {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  padding: 14px 10vw;
+  border-bottom: 1px solid #e5e7eb;
+  z-index: 100;
+}
+
+nav a {
+  margin-right: 22px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #111827;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #2563eb;
+}
+
+/* Search */
+.search-container {
+  padding: 24px 10vw;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.search-container input {
+  width: 100%;
+  max-width: 520px;
+  padding: 12px 15px;
+  font-size: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+/* Sections */
+section {
+  padding: 50px 10vw 70px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+section h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.meta {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 14px;
+  letter-spacing: 0.02em;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 12px;
+  color: #374151;
+}
+
+footer {
+  padding: 30px 10vw;
+  font-size: 13px;
+  text-align: center;
+  color: #6b7280;
+}
+
+@media (max-width: 700px) {
+  header h1 {
+    font-size: 38px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Soorya S S</h1>
+  <p>Engineering Portfolio – AI Systems, Automation Platforms, Web Applications & IoT Solutions</p>
+</header>
+
+<nav>
+  <a href="#docutuck"><b>DocuTuck</b></a>
+  <a href="#stumpvision"><b>Stump Vision</b></a>
+  <a href="#printingapp"><b>Printing App</b></a>
+  <a href="#firearmsafety"><b>Firearm Safety</b></a>
+  <a href="#diseasepred"><b>Disease Prediction</b></a>
+  <a href="#rationshop"><b>Ration Shop</b></a>
+  <a href="#instalead"><b>Instagram AI Lead</b></a>
+  <a href="#influencermarketing"><b>AI Influencer</b></a>
+</nav>
+
+<div class="search-container">
+  <input type="text" id="searchInput" placeholder="Search projects...">
+</div>
+
+<main>
+
+<section id="docutuck">
+<h2>DocuTuck – AI PDF Chatbot</h2>
+<div class="meta">Artificial Intelligence • Document Intelligence • Award Winning Project</div>
+<p>
+DocuTuck was created to solve the challenge of reading and searching extremely large PDF documents
+that can span hundreds or even thousands of pages, such as textbooks, legal documents, research papers,
+and technical manuals. Manually scrolling and searching through these documents is inefficient and time-consuming.
+</p>
+<p>
+Users simply upload a PDF and ask questions in natural language. The system intelligently retrieves
+relevant sections using vector embeddings and generates summarized answers instantly. This removes the need
+to manually copy content into external AI tools for summarization.
+</p>
+<p>
+The project won First Prize in the Department Project Expo (2023–2024) for its practical usefulness
+and strong technical implementation.
+</p>
+</section>
+
+<section id="stumpvision">
+<h2>Smart Stump Vision – AI for Cricket Decisions</h2>
+<div class="meta">Computer Vision • Deep Learning • Real-Time Analytics</div>
+<p>
+Smart Stump Vision is an AI-powered computer vision system designed to support cricket umpiring decisions,
+especially in close situations such as run-outs and stumpings. The system detects critical objects including
+the bat, foot, and ground using a trained YOLOv8 model.
+</p>
+<p>
+A depth estimation module calculates the spatial distance between detected objects, enabling accurate
+judgment of whether the bat or foot crossed the crease before the wicket was broken. The system operates
+in real time and demonstrates practical application of deep learning in sports analytics.
+</p>
+</section>
+
+<section id="printingapp">
+<h2>Student Printing Service Web Application</h2>
+<div class="meta">Web Development • Cloud Deployment • Production System</div>
+<p>
+This web application allows college students to upload documents remotely for printing and collect the
+printouts using a system-generated order ID. Students no longer need to physically visit the printing center
+multiple times to submit files.
+</p>
+<p>
+The platform is currently live and actively used by more than 400 students every day. It improves
+operational efficiency, reduces waiting time, and provides better accessibility across the campus.
+</p>
+</section>
+
+<section id="firearmsafety">
+<h2>Smart Geo-Fenced Safety System for Licensed Firearms</h2>
+<div class="meta">IoT • Embedded Systems • Hardware Prototyping</div>
+<p>
+This project focuses on improving firearm safety using an IoT-based access control mechanism. An ESP32
+microcontroller, RFID authentication, and a servo motor work together to automatically lock or unlock
+the trigger mechanism based on authorized access.
+</p>
+<p>
+A physical prototype was designed and safely tested using a 3D-printed PLA model created in Fusion 360.
+The system demonstrates secure embedded design and hardware-software integration.
+</p>
+</section>
+
+<section id="diseasepred">
+<h2>Smart Disease Prediction from Medical Reports</h2>
+<div class="meta">OCR • Machine Learning • Healthcare Automation</div>
+<p>
+This web application extracts text from medical reports including handwritten, scanned, and typed documents
+using Optical Character Recognition (OCR). The extracted data is processed using a trained machine learning model
+to predict potential diseases.
+</p>
+<p>
+The platform helps hospital staff reduce manual workload, improve diagnosis speed, and assign doctors more efficiently
+in high-traffic medical environments.
+</p>
+</section>
+
+<section id="rationshop">
+<h2>Ration Shop Management & Automated Citizen Notification System</h2>
+<div class="meta">Smart Governance • Messaging Automation • Social Impact</div>
+<p>
+This system enables ration shop managers to update shop timings, product availability, and holiday schedules
+through a secure web portal. Citizens receive automated notifications via SMS, WhatsApp, or voice calls,
+even without smartphones or internet access.
+</p>
+<p>
+The platform reduces unnecessary travel, improves transparency, and ensures better accessibility for rural communities.
+It also maintains collection tracking and reporting for operational monitoring.
+</p>
+</section>
+
+<section id="instalead">
+<h2>Instagram AI Lead Capture & Chat Automation</h2>
+<div class="meta">RAG • CRM Automation • Production AI Systems</div>
+<p>
+An enterprise-grade automation system that intelligently reads Instagram messages, responds automatically,
+and captures lead details such as name, phone number, and email ID. Conversation memory is maintained using
+a Retrieval-Augmented Generation (RAG) pipeline backed by Qdrant.
+</p>
+<p>
+Sentiment analysis identifies high-potential customers. Qualified leads are automatically synced into Google Sheets
+and Zoho CRM for the marketing team to process, while spam and duplicates are filtered.
+</p>
+</section>
+
+<section id="influencermarketing">
+<h2>AI Influencer Marketing Agent</h2>
+<div class="meta">Automation • AI Video Generation • Scalable Systems</div>
+<p>
+This automation platform converts influencer photos and scripts into professional social media videos without
+manual editing. The pipeline handles background replacement, AI voice generation, and video rendering automatically.
+</p>
+<p>
+The system supports high-volume content generation for influencer marketing campaigns and significantly reduces
+production cost and turnaround time.
+</p>
+</section>
+
+</main>
+
+<footer>
+© 2026 Soorya S S • Engineering Portfolio
+</footer>
+
+<script>
+const searchInput = document.getElementById("searchInput");
+const sections = document.querySelectorAll("main section");
+
+searchInput.addEventListener("input", () => {
+  const query = searchInput.value.toLowerCase();
+  sections.forEach(sec => {
+    sec.style.display = sec.innerText.toLowerCase().includes(query) ? "" : "none";
+  });
+});
+</script>
+
+</body>
+</html>
